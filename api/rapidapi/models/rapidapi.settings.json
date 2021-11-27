@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rapidapi",
+  "info": {
+    "name": "rapidapi",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "detalle": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

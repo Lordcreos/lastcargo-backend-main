@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transportes",
+  "info": {
+    "name": "Transporte",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "scraper": {
+      "model": "scraper",
+      "via": "transportes"
+    },
+    "fecha": {
+      "type": "string"
+    }
+  }
+}

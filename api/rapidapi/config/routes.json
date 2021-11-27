@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rapidapis",
+      "handler": "rapidapi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rapidapis/count",
+      "handler": "rapidapi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rapidapis/:id",
+      "handler": "rapidapi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rapidapis",
+      "handler": "rapidapi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rapidapis/:id",
+      "handler": "rapidapi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rapidapis/:id",
+      "handler": "rapidapi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
